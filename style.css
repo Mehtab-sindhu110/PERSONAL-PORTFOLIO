@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font change kiya */
+    background:#0B0F19; /* Deep dark blue-black background */
+    color:#E2E8F0; /* Soft white text */
+}
+
+/* Navbar */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#111827; /* Darker navbar */
+    padding:20px 50px;
+    border-bottom: 2px solid #3B82F6; /* Navbar ke neeche blue line */
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#9CA3AF;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color:#3B82F6; /* Gold ki jagah Neon Blue hover effect */
+    text-shadow: 0 0 10px #3B82F6;
+}
+
+/* Profile Card */
+
+.profile-card{
+    width:420px;
+    margin:50px auto;
+    text-align:center;
+    background:#1E293B; /* Slate blue-grey background */
+    padding:40px 30px;
+    border-radius:16px; /* Modern smooth corners */
+    border: 1px solid #334155;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Deep dark shadow */
+}
+
+.profile-card img{
+    width:160px;
+    height:160px;
+    border-radius:24px; /* Round circle ki jagah Squircle (smooth square) shape */
+    object-fit:cover;
+    border:3px solid #3B82F6; /* Neon Blue border */
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+.profile-card h1{
+    margin-top:20px;
+    font-size: 28px;
+    color: white;
+}
+
+.profile-card h2, .profile-card h3{
+    color:#3B82F6; /* Gold ki jagah Cyber Blue color */
+    margin:10px 0;
+    font-weight: 600;
+}
+
+/* Cards Section */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:50px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width:280px;
+    background:#1E293B;
+    padding:30px 25px;
+    text-align:left; /* Center ki jagah modern Left-align text */
+    border-radius:12px;
+    border-left: 4px solid #3B82F6; /* Card ki left side par stylish blue strip */
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    transform: translateY(-8px);
+    background: #24344D; /* Hover karne par card ka color thoda light hoga */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+    color: #6B7280;
+    margin-top:60px;
+    font-size: 14px;
+    border-top: 1px solid #1F2937;
+}
